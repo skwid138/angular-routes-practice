@@ -4,19 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="vendors/bootstrap-3.3.7-min/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap-3.3.7-min/css/bootstrap.min.css.map">
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="vendors/bootstrap-3.3.7-min/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap-3.3.7-min/css/bootstrap-theme.min.css.map">
+    <!-- css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- NG and routes -->
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <!-- NG controllers -->
+    <script src="scripts/controllers/tarik.js"></script>
+    <script src="scripts/controllers/lynch.js"></script>
+    <script src="scripts/controllers/ingram.js"></script>
+    <script src="scripts/controllers/home.js"></script>
+
     <title>Angular-Routes-Solo</title>
 </head>
-<body>
+<body ng-app="myApp">
     <header>
-        <nav>
-            
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <div class="navbar-nav">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/cohen">Tarik Cohen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/lynch">Marshawn Lynch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/ingram">Mark Ingram</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-
+        <section class="container" ng-click="">
+            <p>index test</p>
+        </section>
+        <ng-view>
+            
+        </ng-view>
     </main>
     <footer>
-
+        <p>&copy; Hunter Rancourt 2017</p>
     </footer>
 </body>
 </html>
