@@ -1,0 +1,25 @@
+{
+  "name": "angular-routes-practice",
+  "version": "1.0.0",
+  "description": "In this assignment we will be using Angular Routes to display information on 3 fictional characters of your choice. Your page should have a header and footer of some kind, and 3 buttons to swap out the content of the characters.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimeAcademy/angular-routes-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrimeAcademy/angular-routes-practice/issues"
+  },
+  "homepage": "https://github.com/PrimeAcademy/angular-routes-practice#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "pg": "^7.3.0"
+  }
+}
