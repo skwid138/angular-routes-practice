@@ -3,4 +3,4 @@ myApp.controller('IngramController', function( ){
     
     var vm = this;
 
-});
+}); // end IngramController
